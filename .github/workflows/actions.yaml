@@ -16,10 +16,12 @@ jobs:
         with:
           python-version: 3.x # Version range or exact version of a Python version to use, the same as actions/setup-python
           architecture: x64 # The target architecture (x86, x64) of the Python interpreter. the same as actions/setup-python
+          cache: true
       - name: Install dependencies
         run: pdm install
       - name: Run app.py
         env:
           MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
         run: |
+          source .venv/bin/activate
           python app.py
