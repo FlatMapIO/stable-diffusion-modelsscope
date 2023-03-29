@@ -51,10 +51,11 @@ def main():
                 os.getcwd(), 'store', repo_id, file))
             if not os.path.exists(dist):
                 os.makedirs(dist, exist_ok=True)
-            subprocess.run(['cp', f, dist])
-
+            print(f'Move file {f} to {dist}')
+            subprocess.run(['mv', f, dist])
     ms_hub.push_model(model_id='HUODONG/stable-diffusion-pack',
-                      model_dir=os.path.join(os.getcwd(), 'store'))
+                      model_dir=os.path.join(os.getcwd(), 'store'),
+                      )
 
 
 if __name__ == '__main__':
