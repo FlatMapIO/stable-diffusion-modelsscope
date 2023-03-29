@@ -1,0 +1,20 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "autopep8>=2.0.2",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "dong.huo", email = "huodon@gmail.com"},
+]
+dependencies = [
+    "huggingface-hub>=0.13.3",
+    "autopep8>=2.0.2",
+    "modelscope>=1.4.2",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}

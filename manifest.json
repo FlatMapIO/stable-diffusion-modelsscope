@@ -1,0 +1,81 @@
+[
+  {
+    "name": "webui",
+    "repo_id": "Linaqruf/fast-repo",
+    "files": [
+      "webui.tar.lz4",
+      "ebui-deps.tar.lz4",
+      "webui-cache.tar.lz4"
+    ]
+  },
+  {
+    "name": "anything-v3.0",
+    "repo_id": "AdamOswald1/Anything-Preservation",
+    "files": [
+      "Anything-V3.0-pruned.safetensors"
+    ]
+  },
+  {
+    "name": "anything-v4.5",
+    "repo_id": "andite/anything-v4.0",
+    "files": [
+      "anything-v4.5-pruned.safetensors"
+    ]
+  },
+  {
+    "name": "anime_pastel_dream",
+    "repo_id": "Lykon/AnimePastelDream",
+    "files": [
+      "AnimePastelDream_Soft_noVae_fp16.safetensors"
+    ]
+  },
+  {
+    "name": "anylora",
+    "repo_id": "Lykon/AnyLoRA",
+    "files": [
+      "AnyLoRA_noVae_fp16.safetensors"
+    ]
+  },
+  {
+    "name": "chilloutmix_ni",
+    "repo_id": "naonovn/chilloutmix_NiPrunedFp32Fix",
+    "files": [
+      "chilloutmix_NiPrunedFp32Fix.safetensors"
+    ]
+  },
+  {
+    "name": "stable_diffusion_v1_5",
+    "repo_id": "Linaqruf/stolen",
+    "files": [
+      "stable_diffusion_1_5-pruned.safetensors"
+    ]
+  },
+  {
+    "name": "replicant_v1",
+    "repo_id": "gsdf/Replicant-V1.0",
+    "files": [
+      "Replicant-V1.0_fp16.safetensors"
+    ]
+  },
+  {
+    "name": "illuminati_diffusion_v1_1",
+    "repo_id": "4eJIoBek/Illuminati-Diffusion-v1-1",
+    "files": [
+      "illuminatiDiffusionV1_v11.safetensors"
+    ]
+  },
+  {
+    "name": "waifu_diffusion_v1_5_e2_aesthetic",
+    "repo_id": "waifu-diffusion/wd-1-5-beta2",
+    "files": [
+      "checkpoints/wd-1-5-beta2-aesthetic-fp16.safetensors"
+    ]
+  },
+  {
+    "name": "blue_pencil_v5b",
+    "repo_id": "bluepen5805/blue_pencil",
+    "files": [
+      "blue_pencil-v5b.safetensors"
+    ]
+  }
+]
