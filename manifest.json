@@ -12,7 +12,7 @@
     "name": "anything-v3.0",
     "repo_id": "AdamOswald1/Anything-Preservation",
     "files": [
-      "Anything-V3.0-pruned.safetensors"
+      "anything-v3-fp16-pruned.safetensors"
     ]
   },
   {
@@ -47,7 +47,7 @@
     "name": "stable_diffusion_v1_5",
     "repo_id": "Linaqruf/stolen",
     "files": [
-      "stable_diffusion_1_5-pruned.safetensors"
+      "pruned-models/stable_diffusion_1_5-pruned.safetensors"
     ]
   },
   {
