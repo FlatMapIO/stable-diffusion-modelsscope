@@ -4,7 +4,7 @@
     "repo_id": "Linaqruf/fast-repo",
     "files": [
       "webui.tar.lz4",
-      "ebui-deps.tar.lz4",
+      "webui-deps.tar.lz4",
       "webui-cache.tar.lz4"
     ]
   },
